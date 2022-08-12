@@ -1,0 +1,14 @@
+background: linear-gradient(0.25turn, #da002f, #df3232, #ff8826);
+
+------------------icons---------------------
+search---- <i class="fa-solid fa-magnifying-glass"></i>
+pen------- <i class="fa-solid fa-pencil"></i>
+pen nib--- <i class="fa-solid fa-pen-nib"></i>
+tick------ <i class="fa-solid fa-check"></i>
+
+----footer----
+
+fb---- <i class="fa-brands fa-facebook"></i>
+twitter --- <i class="fa-brands fa-twitter"></i>
+linkedin-- <i class="fa-brands fa-linkedin-in"></i>
+instagram-- <i class="fa-brands fa-instagram"></i>
