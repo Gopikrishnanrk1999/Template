@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0%;
+}
+.homepage{
+    height: 750px;
+    background-image: url(./Best-Glow-in-the-Dark-Paint-for-Skin.jpg);
+    background-size: cover;
+    background-attachment:scroll;
+}
+nav{
+    display: flex;
+    padding: 20px;
+    color: aliceblue;
+}
+.navheading{
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 300px;
+}
+.navheading > span{
+    color: red;
+}
+.navbuttons{
+    display: flex;
+    list-style: none;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+.navbuttons li{
+    margin-left: 30px;
+}
+.navbuttons li:hover{
+    transition: all 0.3s ease;
+    text-decoration: underline red 3px;
+    transition-timing-function: ease-in-out;
+}
+.maindescription{
+    height: 400px;
+    width: 35%;
+    background-color: rgba(127, 255, 212, 0.329);
+    color: white;
+}
+.mainheading{
+    font-size: 67px;
+}
+.mainheading > span{
+    color: red;
+}
+.maindescription button{
+    padding: 10px;
+    border-radius: 25px;
+    width: 150px;
+    background-color: red;
+    border: red;
+    color: white;
+    font-family: 'Lato', sans-serif;
+
+}
+
+/* second page  */
+
+.secondpage{
+    height: 800px;
+}
+.aboutus{
+    display: flex;
+    height: 400px;
+    margin-left: 250px;
+    background-color: #ffffff;
+    padding: 5%;
+}
+.page2{
+    width: 49%;
+    margin-left: 80px;
+    background-color: transparent;
+    color:black
+}
+.page2 > .mainheading{
+    font-size: 50px;
+
+}
+ /* secondpage second partition  */
+
+.works{
+    height: 400px;
+    background-color: #f0f0f0;
+    padding: 5% 0%;
+}
+.boxes{
+    padding: 0% 20%;
+}
+.boxsize{
+    height: 250px;
+    width: 210px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex: none;
+    margin-left: 10px;
+}
+.page2partition{
+    text-align: center;
+    height: 140px;
+    width: 100%;
+    background-color:transparent ;
+    color: black;
+}
+.page2partition > .mainheading{
+    color: black;
+    font-size: 50px;
+    
+}
+.boxtext{
+    font-size: smaller;
+    text-align: center;
+    height: 140px;
+    width: 100%;
+    color: black;
+    margin-top: 37%;
+    background-color: transparent;
+}
+.boxtext > .mainheading{
+    font-size: 20px;
+}
+.boxtext p{
+    font-size: 12px;
+}
+.box{
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    color: red;
+    margin-top: 0%;
+}
