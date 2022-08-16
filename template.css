@@ -6,7 +6,7 @@ body{
 }
 .homepage{
     height: 750px;
-    background-image: url(./Best-Glow-in-the-Dark-Paint-for-Skin.jpg);
+    background-image: url(./images/Best-Glow-in-the-Dark-Paint-for-Skin.jpg);
     background-size: cover;
     background-attachment:scroll;
 }
@@ -38,10 +38,12 @@ nav{
     transition-timing-function: ease-in-out;
 }
 .maindescription{
-    height: 400px;
-    width: 35%;
     background-color: rgba(127, 255, 212, 0.329);
     color: white;
+}
+.main{
+    height: 400px;
+    width: 35%;
 }
 .mainheading{
     font-size: 67px;
@@ -63,34 +65,37 @@ nav{
 /* second page  */
 
 .secondpage{
-    height: 800px;
+    height: 900px;
+}
+.imagewithtext{
+    display: flex;
+    
 }
 .aboutus{
-    display: flex;
     height: 400px;
-    margin-left: 250px;
     background-color: #ffffff;
-    padding: 5%;
+    padding: 2% 11%;
 }
-.page2{
+.secondpagehead{
     width: 49%;
     margin-left: 80px;
     background-color: transparent;
-    color:black
+    color:black;
+    padding: 2% 0%;
 }
-.page2 > .mainheading{
-    font-size: 50px;
+.secondpagehead > .mainheading{
+    font-size: 45px;
 
 }
  /* secondpage second partition  */
 
-.works{
+.blocks{
     height: 400px;
     background-color: #f0f0f0;
-    padding: 5% 0%;
+    padding: 2% 0%;
 }
 .boxes{
-    padding: 0% 20%;
+    padding: 0% 15%;
 }
 .boxsize{
     height: 250px;
@@ -100,16 +105,16 @@ nav{
     flex: none;
     margin-left: 10px;
 }
-.page2partition{
+.textalignedtocenter{
     text-align: center;
     height: 140px;
     width: 100%;
     background-color:transparent ;
     color: black;
 }
-.page2partition > .mainheading{
+.textalignedtocenter > .mainheading{
     color: black;
-    font-size: 50px;
+    font-size: 40px;
     
 }
 .boxtext{
@@ -128,9 +133,71 @@ nav{
     font-size: 12px;
 }
 .box{
-    text-align: center;
-    display: block;
     font-size: 25px;
     color: red;
-    margin-top: 0%;
+    display: inline ;
+    text-align: center;
+}
+
+/* Third page  */
+
+.thirdpage{
+    height: 942px;
+    background-color: #f0f0f0;
+}
+.lineargradient{
+    
+    height: 405px;
+    background: linear-gradient(0.25turn, #da002f, #df3232, #ff8826);
+}
+.thirdpagehead{
+    padding: 10% 0%;
+   text-align: center;
+}
+.thirdpagehead > .mainheading{
+    font-size: 35px;
+}
+.thirdpagehead > button{
+    background-color: white;
+    color: red;
+}
+.recentworks > img{
+    width: 45%;
+   margin-left: 10%;
+}
+.recentworkstexts{
+    color: black;
+    padding: 0% 5%;
+}
+.recentworkstexts > .mainheading{
+    font-size: 40px;
+}
+.recentworkstexts > table{
+    padding: 2% 0%;
+}
+.nextprojectlink{
+    margin-left: 75%
+}
+.nextprojectlink span{
+    font-size: 30px;
+}
+.thirdpagepartition{
+    padding: 2% 0%;
+}
+
+/* fourthpage  */
+
+.team{
+    background-color: white;
+}
+.blogs > img{
+    width: 45%;
+   margin-left: 10%;
+}
+.secondblog{
+    padding: 2% 0%;
+}
+.secondblog > img{
+    width: 45%;
+   margin-right: 10%;
 }
