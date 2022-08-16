@@ -15,13 +15,13 @@ nav{
     padding: 20px;
     color: aliceblue;
 }
-.navheading{
+.companylogo{
     font-weight: bold;
     font-size: 25px;
     margin-left: 300px;
 }
-.navheading > span{
-    color: red;
+.companylogo > span{
+    color: #ca342b;
 }
 .navbuttons{
     display: flex;
@@ -49,14 +49,15 @@ nav{
     font-size: 67px;
 }
 .mainheading > span{
-    color: red;
+    color: #ca342b;
 }
-.maindescription button{
+/* .maindescription  */
+button{
     padding: 10px;
     border-radius: 25px;
     width: 150px;
-    background-color: red;
-    border: red;
+    background-color: #ca342b;
+    border: none;
     color: white;
     font-family: 'Lato', sans-serif;
 
@@ -64,9 +65,6 @@ nav{
 
 /* second page  */
 
-.secondpage{
-    height: 900px;
-}
 .imagewithtext{
     display: flex;
     
@@ -92,7 +90,7 @@ nav{
 .blocks{
     height: 400px;
     background-color: #f0f0f0;
-    padding: 2% 0%;
+    padding: 4% 0%;
 }
 .boxes{
     padding: 0% 15%;
@@ -103,7 +101,7 @@ nav{
     background-color: rgb(255, 255, 255);
     display: flex;
     flex: none;
-    margin-left: 10px;
+    margin-left: 10%;
 }
 .textalignedtocenter{
     text-align: center;
@@ -134,7 +132,7 @@ nav{
 }
 .box{
     font-size: 25px;
-    color: red;
+    color: #ca342b;
     display: inline ;
     text-align: center;
 }
@@ -142,16 +140,13 @@ nav{
 /* Third page  */
 
 .thirdpage{
-    height: 942px;
     background-color: #f0f0f0;
 }
 .lineargradient{
-    
-    height: 405px;
     background: linear-gradient(0.25turn, #da002f, #df3232, #ff8826);
 }
 .thirdpagehead{
-    padding: 10% 0%;
+    padding: 5% 0%;
    text-align: center;
 }
 .thirdpagehead > .mainheading{
@@ -182,22 +177,69 @@ nav{
     font-size: 30px;
 }
 .thirdpagepartition{
-    padding: 2% 0%;
+    padding: 5% 0%;
 }
 
 /* fourthpage  */
 
+.fourthpage{
+    padding: 2% 15%;
+}
 .team{
     background-color: white;
 }
 .blogs > img{
-    width: 45%;
-   margin-left: 10%;
+    height: 300px;
+    width: 50%;
 }
 .secondblog{
     padding: 2% 0%;
 }
 .secondblog > img{
-    width: 45%;
-   margin-right: 10%;
+    height: 320px;
+    width: 80%;
+}
+.blogstexts{
+    padding: 3% 5%;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+.blogstexts > .mainheading{
+    font-size: 25px;
+}
+
+/* footer  */
+
+.footer{
+    background-color: #222222;
+    display: flex;
+    padding: 5% 5%;
+    justify-content: space-around;
+    color: #cbcaca;
+}
+.footerlogo{
+    margin-left: 0%;
+}
+.footertext{
+    color: #cbcaca;
+}
+.footertable tr{
+    width: 50%;
+}
+input{
+    padding: 10px;
+    border-radius: 25px;
+    width: 60%;
+    border:none;
+    font-family: 'Lato', sans-serif;
+}
+.footerbutton{
+    font-weight: bolder;
+    width: 20%;
+    padding: 10px;
+    background-color: #cb342b;
+}
+.footer form{
+    margin-top: 20%;
 }
